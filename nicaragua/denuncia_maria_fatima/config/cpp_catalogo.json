@@ -1,0 +1,9 @@
+﻿{
+  "catalogo_cpp": [
+    {"delito": "hurto agravado", "articulo": "284", "descripcion": "Sustracción de cosa ajena mueble con circunstancias agravantes (no violencia sobre las personas)."},
+    {"delito": "falsificacion ideologica", "articulo": "289", "descripcion": "El notario o funcionario que altere la verdad en un instrumento público en el ejercicio de sus funciones."},
+    {"delito": "uso de documento falso", "articulo": "292", "descripcion": "El que hace uso de un documento falsificado o alterado como si fuera auténtico."},
+    {"delito": "estelionato", "articulo": "235", "descripcion": "El que enajena, grava o arrienda cosa ajena o ya enajenada, o la da en garantía a sabiendas de su improcedencia."},
+    {"delito": "violencia patrimonial o economica", "articulo": "519 bis", "descripcion": "Actos que afecten la propiedad o patrimonio de la víctima en relaciones familiares o de confianza."}
+  ]
+}

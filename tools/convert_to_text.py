@@ -1,0 +1,1 @@
+﻿# Herramienta: Convertir a texto
