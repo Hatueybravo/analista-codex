@@ -1,0 +1,33 @@
+from __future__ import annotations
+
+import os
+import glob
+import pytesseract
+from pdf2image import convert_from_path
+from PIL import Image
+
+# Configura la ruta de Tesseract (ajusta si es diferente en tu sistema)
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+RUTA_PDFS = r"evidencia\pdfs"
+RUTA_TEXTOS = r"resultados\textos"
+
+def procesar_pdfs() -> None:
+    os.makedirs(RUTA_TEXTOS, exist_ok=True)
+    for pdf_path in glob.glob(os.path.join(RUTA_PDFS, "*.pdf")):
+        try:
+            images = convert_from_path(pdf_path)
+            nombre = os.path.splitext(os.path.basename(pdf_path))[0]
+            texto = ""
+            for img in images:
+                texto += pytesseract.image_to_string(img) + "\n"
+            txt_path = os.path.join(RUTA_TEXTOS, f"{nombre}.txt")
+            with open(txt_path, "w", encoding="utf-8") as f:
+                f.write(texto)
+            print(f"Procesado {pdf_path} -> {txt_path}")
+        except Exception as e:
+            print(f"Error procesando {pdf_path}: {e}")
+    print("Procesamiento de PDFs completado.")
+
+if __name__ == "__main__":
+    procesar_pdfs()

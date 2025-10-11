@@ -60,3 +60,4 @@ if __name__ == "__main__":
     print(f"✅ Matriz de evidencia creada con catálogo CPP: {RUTA_XLSX}")
     print(f"📚 Catálogo cargado: {len(cpp_catalogo)} delitos reconocidos")
 
+
