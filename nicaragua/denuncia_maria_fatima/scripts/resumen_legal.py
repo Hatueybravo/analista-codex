@@ -57,6 +57,6 @@ if __name__ == "__main__":
     with pd.ExcelWriter(RUTA_XLSX, engine="openpyxl") as writer:
         salida.to_excel(writer, sheet_name="Matriz_Evidencia", index=False)
 
-    print(f"✅ Matriz de evidencia creada con catálogo CPP: {RUTA_XLSX}")
-    print(f"📚 Catálogo cargado: {len(cpp_catalogo)} delitos reconocidos")
+    print(f"OK Matriz de evidencia creada con catálogo CPP: {RUTA_XLSX}")
+    print(f"Catalogo cargado: {len(cpp_catalogo)} delitos reconocidos")
 
