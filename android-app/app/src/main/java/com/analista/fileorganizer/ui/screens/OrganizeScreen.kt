@@ -106,6 +106,7 @@ fun OrganizeScreen(viewModel: MainViewModel) {
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun OrganizeOptionCard(
     title: String,

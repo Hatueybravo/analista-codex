@@ -140,7 +140,7 @@ fun TelegramScreen(viewModel: MainViewModel) {
         }
 
         // Divider
-        HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
+        Divider(modifier = Modifier.padding(vertical = 8.dp))
 
         // Test message
         Text("Send Test Message", style = MaterialTheme.typography.titleMedium)
