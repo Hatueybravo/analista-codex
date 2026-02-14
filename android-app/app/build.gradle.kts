@@ -97,9 +97,8 @@ dependencies {
     // Image loading
     implementation("io.coil-kt:coil-compose:2.5.0")
 
-    // OCR - ML Kit
-    implementation("com.google.mlkit:text-recognition:16.0.0")
-    implementation("com.google.mlkit:text-recognition-latin:16.0.0")
+    // OCR - ML Kit (Latin script included by default)
+    implementation("com.google.mlkit:text-recognition:16.0.1")
 
     // Networking (for Telegram)
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
