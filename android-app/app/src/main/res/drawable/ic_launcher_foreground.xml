@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Folder icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,36h18l4,4h26c2.2,0 4,1.8 4,4v28c0,2.2 -1.8,4 -4,4H30c-2.2,0 -4,-1.8 -4,-4V40c0,-2.2 1.8,-4 4,-4z"/>
+    <!-- AI sparkle -->
+    <path
+        android:fillColor="#FFB74D"
+        android:pathData="M68,48l3,6l6,3l-6,3l-3,6l-3,-6l-6,-3l6,-3z"/>
+</vector>
