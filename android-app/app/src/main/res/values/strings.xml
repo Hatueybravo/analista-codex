@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">File Organizer AI</string>
+    <string name="organize_files">Organize Files</string>
+    <string name="scan_downloads">Scan Downloads</string>
+    <string name="agent_command">Agent Command</string>
+    <string name="telegram_settings">Telegram Settings</string>
+    <string name="generate_document">Generate Document</string>
+    <string name="file_reader">File Reader</string>
+    <string name="settings">Settings</string>
+
+    <!-- Agent commands -->
+    <string name="agent_hint">Type a command for the agent…</string>
+    <string name="agent_execute">Execute</string>
+
+    <!-- Telegram -->
+    <string name="telegram_bot_token">Bot Token</string>
+    <string name="telegram_chat_id">Chat ID</string>
+    <string name="telegram_connect">Connect</string>
+    <string name="telegram_disconnect">Disconnect</string>
+    <string name="telegram_status_connected">Connected</string>
+    <string name="telegram_status_disconnected">Disconnected</string>
+
+    <!-- File categories -->
+    <string name="category_documents">Documents</string>
+    <string name="category_images">Images</string>
+    <string name="category_audio">Audio</string>
+    <string name="category_video">Video</string>
+    <string name="category_archives">Archives</string>
+    <string name="category_other">Other</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_agent">Agent Service</string>
+    <string name="notification_agent_running">Agent is running…</string>
+</resources>
